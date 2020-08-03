@@ -96,11 +96,6 @@ footer {
 }
 
 /* css da página contato */
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
 form {
 	margin: 40px 0;
 }
@@ -169,6 +164,13 @@ th {
 	clear: left;
 }
 
+.principal {
+	padding: 3em 0;
+	background: #feffff;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .principal  p {
 	margin: 0 0 1em;
 }
@@ -187,13 +189,24 @@ th {
 	margin: 0 20px 20px 0;
 }
 
-.mapa,
-.beneficios {
+.mapa {
 	padding: 3em 0;
+	background: linear-gradient(#feffff,#888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p {
-	margin-bottom: 2em;
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios {
