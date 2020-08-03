@@ -190,3 +190,15 @@ th {
 .imagembeneficios  {
 	width: 60%;
 }
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin-bottom: 2em;
+}
+
+.video {
+	width: 540px;
+	margin: 1em 0;
+}
